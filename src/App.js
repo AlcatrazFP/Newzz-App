@@ -9,7 +9,7 @@ import Navbar from './components/Navbar';
 import News from './components/News';
 
 export default class App extends Component {
-  apiKey = process.env.REACT_APP_NEWS_API
+  apiKey = "8a6cce56c8884a028e18a6bd63f38a26"
   pageSize =10
   render() {
     return (
